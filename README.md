@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Web Studio 2
+# goit-markup-hw-01
+Web Studio
