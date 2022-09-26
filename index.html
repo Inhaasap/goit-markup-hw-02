@@ -5,55 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- header -->
+    <!-- шапка -->
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+        <a class="logo" href="./index.html"
+          ><span class="logo-part">Web</span>Studio</a
+        >
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link current">Студія</a></li>
+          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+          <li><a href="#" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="site-contact list">
+        <li>
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
-    <!-- hero -->
+    <!--  секція hero -->
     <main>
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="hero-section">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero-button" type="button">Замовити послугу</button>
       </section>
       <!-- Секція наші переваги -->
-      <section>
-        <h2>Наші переваги</h2>
-        <ul>
+      <section class="section">
+        <h2 class="visually-hidden">Наші переваги</h2>
+        <ul class="features">
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <h3 class="section-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <h3 class="section-title">ПУНКТУАЛЬНІСТЬ</h3>
             <p>
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
+            <h3 class="section-title">ПЛАНУВАННЯ</h3>
             <p>
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <h3 class="section-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p>
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
@@ -62,8 +75,8 @@
         </ul>
         <!-- Секція чим ми займаємося -->
       </section>
-      <section>
-        <h2>Чим ми займаємося</h2>
+      <section class="section">
+        <h2 class="section-title">Чим ми займаємося</h2>
         <ul>
           <li>
             <img
@@ -89,8 +102,8 @@
         </ul>
       </section>
       <!-- Cекція наша команда -->
-      <section>
-        <h2>Наша команда</h2>
+      <section class="section-team">
+        <h2 class="section-title">Наша команда</h2>
         <ul>
           <li>
             <img src="./images/Ihor.jpg" alt="чоловік в окулярах" width="270" />

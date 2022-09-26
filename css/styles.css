@@ -1,0 +1,148 @@
+ :root {
+  /* color */
+    --color-text-primary: #212121; 
+    --color-text-secondary: #757575; 
+    --accent-color: #2196F3; 
+    --accent-bg-color: #2F303A;
+    --primary-bg-color: #F5F5F5;
+    --seconadry-bg-color:#F5F4FA;
+
+  /* font */
+    --primary-fonts:'Roboto',sans-serif;
+    --secondary-fonts:'Raleway', sans-serif;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--color-text-primary);
+  font-family: var(--primary-fonts);
+  font-size: 400;
+  font-weight: 14px;
+  line-height: 1.5;
+}
+
+.list {
+  list-style: none;
+}
+
+/* header */
+.logo {
+  font-family: var(--secondary-fonts);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+.logo:hover {
+  text-decoration: underline;
+}
+
+.logo-part {
+  color: var(--accent-color) ;
+}
+
+/* nav site */
+
+.site-nav .link {
+  text-decoration: none;
+  color: var(--color-text-primary);
+}
+  
+.site-nav .link:hover, 
+.site-nav .link:focus {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-contact a {
+  text-decoration: none;
+  color: var(--color-text-secondary);
+}
+.site-contact a:hover {
+  text-decoration: underline
+  
+}
+.site-contact a:active,
+.site-contact a:focus {
+  color: var(--accent-color);
+}
+  /* hero section  */
+
+.hero-section {
+  background-color: var(--accent-bg-color);
+}
+.hero-title {
+  color: var(--light-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+ 
+  }
+
+.hero-button {
+  color: var(--light-text-color);
+  background: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+ /* Hiden h1 */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+
+}
+
+.section-title {
+  color: var(--color-text-primary);
+  font-weight: 700;
+  font-size: 36px;
+}
+
+/* features */
+
+.features .title {
+  color: var(--color-text-primary);
+}
+
+/* our team */
+
+.section-team {
+  background:var(--seconadry-bg-color);
+}
+
+ /* styles for portfolio */
+
+ /* .card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+ }
+
+ .list-item {
+  width: 370px;
+  height: 404px;
+  background-color: #FFFFFF;
+ }
+
+ .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  */

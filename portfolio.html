@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
@@ -22,24 +29,22 @@
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
-    <!-- hero -->
+    <!-- секція hero -->
     <main>
       <section>
-        <h1>Наш роботи</h1>
-        <nav>
-          <ul>
-            <li><a href="#">Усі</a></li>
-            <li><a href="#">Веб-сайти</a></li>
-            <li><a href="#">Додатки</a></li>
-            <li><a href="#">Дизайн</a></li>
-            <li><a href="#">Маркетинг</a></li>
-          </ul>
-        </nav>
-      </section>
-      <!-- section next -->
-      <section>
+        <h1 class="visually-hidden">Наш роботи</h1>
         <ul>
-          <li>
+          <li><button type="button">Усі</button></li>
+          <li><button type="button">Веб-сайти</button></li>
+          <li><button type="button">Додатки</button></li>
+          <li><button type="button">Дизайн</button></li>
+          <li><button type="button">Маркетинг</button></li>
+        </ul>
+      </section>
+      <!-- секція next -->
+      <section>
+        <ul class="list card-list">
+          <li class="list-item">
             <img
               src="./images/website.jpg"
               alt="зображення веб сайта на украні комп'ютера"
@@ -48,43 +53,43 @@
             <h2>Технокряк</h2>
             <p>Веб-сайт</p>
           </li>
-          <li>
+          <li class="list-item">
             <img
               src="./images/goldenstar.jpg"
               alt="зображення двох граців баскетболу у русі"
               width="370"
             />
-            <h2>Постер New Orlean vs Golden Star</h2>
+            <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
             <p>Дизайн</p>
           </li>
-          <li>
+          <li class="list-item">
             <img
               src="./images/seafood.jpg"
               alt="зображення емблеми ресторану"
               width="370"
             />
-            <h2>Ресторан Seafood</h2>
+            <h2>Ресторан <span lang="en">Seafood</span></h2>
             <p>Додаток</p>
           </li>
-          <li>
+          <li class="list-item">
             <img
               src="./images/prime.jpg"
               alt="зображення навушиники"
               width="370"
             />
-            <h2>Проєкт Prime</h2>
+            <h2>Проєкт <span lang="en">Prime</span></h2>
             <p>Маркетинг</p>
           </li>
-          <li>
+          <li class="list-item">
             <img
               src="./images/boxes.jpg"
               alt="зображення коробок"
               width="370"
             />
-            <h2>Проєкт Boxes</h2>
+            <h2>Проєкт <span lang="en">Boxes</span></h2>
             <p>Додаток</p>
           </li>
-          <li>
+          <li class="list-item">
             <img
               src="./images/borders.jpg"
               alt="зображення комп'ютера "
@@ -93,21 +98,21 @@
             <h2 lang="en">Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
           </li>
-          <li>
+          <li class="list-item">
             <img
               src="./images/limited.jpg"
               alt="зображення журнала"
               width="370"
             />
-            <h2>Видання Limited Edition</h2>
+            <h2>Видання <span lang="en">Limited Edition</spa></h2>
             <p>Дизайн</p>
           </li>
-          <li>
+          <li class="list-item">
             <img src="./images/lab.jpg" alt="зображення етикетки" width="370" />
             <h2>Проєкт LAB</h2>
             <p>Маркетинг</p>
           </li>
-          <li>
+          <li class="list-item">
             <img src="./images/business.jpg" alt=" зображення ноутбука" />
             <h2 lang="en">Growing Business</h2>
             <p>Додаток</p>
