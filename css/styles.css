@@ -258,6 +258,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   border-color: transparent;
+  cursor: pointer;
 }
 .filter-list .secondary-button:hover,
 .filter-list .secondary-button:focus {
